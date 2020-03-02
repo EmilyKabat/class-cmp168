@@ -1,0 +1,15 @@
+public Passenger {
+  private String name;
+  private int birthYear;
+  private double weight;
+  private char gender;
+  private int numCarryOn;
+  
+  public void Passenger() {
+    this.name = "";
+    this.birthYear = 1900;
+    this.weight = 0.0;
+    this.gender = 'u';
+    this.numCarryOn = 0;
+    }
+}
